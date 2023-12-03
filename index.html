@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+        <link rel="stylesheet" href="estilo.css">
+	</head>
+	<body>
+		<div>
+			<div>
+				Nome:<input type="text" placeholder="Informe o nome do aluno" required minlength="3" id="nome"/>
+			</div>
+			<br />
+			<section id="secao">
+				<div>
+					Matematica:
+					<p>1° Bimestre: <input type="number" id="n1" required/></p>
+					<p>2° Bimestre: <input type="number" id="n2" required/></p>
+					<p>3° Bimestre: <input type="number" id="n3" required/></p>
+					<p>4° Bimestre: <input type="number" id="n4" required/></p>
+				</div>
+				
+				<div>
+					Portugues:
+					<p>1° Bimestre: <input type="number" id="n5" required/></p>
+					<p>2° Bimestre: <input type="number" id="n6" required/></p>
+					<p>3° Bimestre: <input type="number" id="n7" required/></p>
+					<p>4° Bimestre: <input type="number" id="n8" required/></p>
+				</div>
+				<div>
+					Fisica:
+					<p>1° Bimestre: <input type="number" id="n9" required/></p>
+					<p>2° Bimestre: <input type="number" id="n10" required/></p>
+					<p>3° Bimestre: <input type="number" id="n11" required/></p>
+					<p>4° Bimestre: <input type="number" id="n12" required/></p>
+				</div>
+
+				<div>
+					Biologia:
+					<p>1° Bimestre: <input type="number" id="n13" required/></p>
+					<p>2° Bimestre: <input type="number" id="n14" required/></p>
+					<p>3° Bimestre: <input type="number" id="n15" required/></p>
+					<p>4° Bimestre: <input type="number" id="n16" required/></p>
+				</div>
+
+				<div>
+					Quimica:
+					<p>1° Bimestre: <input type="number" id="n17" required/></p>
+					<p>2° Bimestre: <input type="number" id="n18" required/></p>
+					<p>3° Bimestre: <input type="number" id="n19" required/></p>
+					<p>4° Bimestre: <input type="number" id="n20" required/></p>
+				</div>
+				
+			</section>
+			<input type="button" value="Enviar" id="enviar">
+		</div>
+	</div>
+    
+    
+    <table id="tabelaResultados">
+        <tr>
+            <th>Aluno</th>
+            <th>Status</th>
+			<th>Media</th>
+        </tr>
+    </table>
+		<script src="dom.js"></script>
+	</body>
+</html>
